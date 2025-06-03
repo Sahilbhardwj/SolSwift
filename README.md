@@ -9,7 +9,6 @@ This is a functional web application that interacts with the **Solana blockchain
 > ⚠️ **Disclaimer**  
 > This project prioritizes only  **core functionality over UI/visual design** as i built it to understand and implement  Solana using Web3.js and Wallet Adapter.  
 
-
 ##  Features:
 
 - **Wallet Integration**: Seamless connection with wallets like Phantom using Solana Wallet Adapter.
@@ -25,6 +24,7 @@ This is a functional web application that interacts with the **Solana blockchain
 - **Solana Web3.js**: For blockchain interaction.
 - **Solana Wallet Adapter**: For integrating wallets like Phantom, backpack, etc.
 - **React**: Frontend framework.
+- **Tailwindcss**: For ui and responsiveness
 - **Devnet**: All operations are performed on Solana’s Devnet (safe testing environment).
 
 
@@ -40,3 +40,9 @@ git clone https://github.com/yourusername/SolSwift.git
 cd solana-wallet-app
 npm install
 npm start
+```
+ 
+ ## screenshots
+ ![image](https://github.com/user-attachments/assets/0b761a40-db70-4bd5-98cb-0f3fa47899ac)
+ ![image](https://github.com/user-attachments/assets/3f471768-5fe0-429c-a865-cc7c9c5c0e43)
+ 
