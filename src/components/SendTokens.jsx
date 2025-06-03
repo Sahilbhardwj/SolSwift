@@ -20,10 +20,10 @@ export function SendToken(){
      alert("transaction done");
 }
     return(
-        <div>
-            <input type="text" placeholder="enter Recepient public address" id="to" style ={{ padding: "15px 20px", borderRadius: "5px" }}/>
-            <input type="text" placeholder="enter amount" id="amount"  style ={{ padding: "15px 20px", borderRadius: "5px" }}/>
-            <button onClick={sendtoken} style={{ backgroundColor: "#512da8", color: "white", padding: "15px 20px", borderRadius: "5px" }} >Send SOL</button>
+        <div className="flex flex-col bg-gray-100 p-4 rounded-md m-2">
+            <input type="text" placeholder="enter Recepient public address" id="to" className="bg-gray-200 p-4 rounded md m-1 font-bold"/>
+            <input type="text" placeholder="enter amount" id="amount"  className="bg-gray-200 p-4 rounded md m-1 font-bold"/>
+            <button onClick={sendtoken} className="bg-blue-500 p-4 rounded md m-1 text-white font-bold" >Send SOL</button>
         </div>
     )
 }
